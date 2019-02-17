@@ -1,0 +1,89 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+.container-fluid {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+}
+.jumbotron {
+    background-color: dimgray;
+    border-bottom: 2px solid #FF6483;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: crimson;
+    text-shadow: 2px 2px 5px #FF6483;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+li {
+    line-height: 2;
+}
+
+button {
+    margin-bottom: 5px;
+}
+
+#newBurger {
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 100px;
+    margin-top: 2rem;
+    background-color: silver;
+}
+
+#toDevour {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 100%;
+    background-color: silver;
+}
+
+#devoured {
+    background-color: silver;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#devouredList {
+    opacity: 0.6;
+}
+
+footer {
+    background-image:
+      linear-gradient(45deg,#000000 25%, transparent 25%), 
+      linear-gradient(135deg, #000000 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #000000 75%),
+      linear-gradient(135deg, transparent 75%, #000000 75%);
+    background-size:25px 25px; /* Must be a square */
+    background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
