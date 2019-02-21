@@ -11,7 +11,7 @@
         <h3>Ready to be devoured!</h3>
 
         <ul>
-          {{#each burgers}}
+          {{#each Burgers}}
           {{#unless devoured}}
           {{> burgers/burger-block devoured=true}}
           {{/unless}}
@@ -24,7 +24,7 @@
         <h3>Devoured!</h3>
 
         <ul id="devouredList">
-          {{#each burgers}}
+          {{#each Burgers}}
           {{#if devoured}}
           {{> burgers/burger-block devoured=false}}
           {{/if}}
